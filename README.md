@@ -44,3 +44,41 @@ Accepts a directory path as input
 Counts how many .log files are in that directory
 Shows the total size of those .log files combined
 
+
+
+✅ Easy-Level Tasks
+🔹 Shell Script (Easy)
+Task:
+Write a script that accepts a filename and prints:
+
+Whether it exists
+
+Whether it’s a file or directory
+
+Its size in human-readable format
+
+🔹 Python (Easy)
+Task:
+Write a program to accept a string and print each word on a new line.
+For example: "Hello World from Python" →
+csharp
+Copy
+Edit
+Hello  
+World  
+from  
+Python
+
+
+🧠 Medium-Level Tasks
+🔸 Shell Script (Medium)
+Task:
+Write a script to find the top 3 largest files in a directory (including subdirectories).
+(Hint: Use find, du, sort, head)
+
+🔸 Python (Medium)
+Task:
+Write a Python program that accepts a list of integers and returns all the duplicate numbers in the list.
+Example:
+Input:  [1, 2, 3, 4, 2, 5, 1, 6]
+Output: [1, 2]
