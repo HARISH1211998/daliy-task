@@ -1,0 +1,9 @@
+# Task:
+# Write a script to find the top 3 largest files in a directory (including subdirectories).
+# (Hint: Use find, du, sort, head)
+
+uigdfuiw
+
+nodwn
+odaciodnaic
+adncjadncuigdd iuh dciuwhdihwbxiehc

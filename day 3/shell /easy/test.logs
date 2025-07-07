@@ -1,0 +1,9 @@
+-e: checks if the path exists.
+
+-f: checks if it’s a regular file.
+
+-d: checks if it’s a directory.
+
+du -sh: gives human-readable size (e.g., 1.2K, 4M).
+
+cut -f1: extracts only the size portion.
