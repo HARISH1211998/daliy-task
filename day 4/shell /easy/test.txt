@@ -1,0 +1,16 @@
+# Task Write a shell script that:
+# Accepts a filename as input
+# Prints how many lines, words, and characters are in the file
+
+read -p "Enter the file path: " file
+
+if [ ! -f "$file" ]; then
+    echo "Give value is not an file formet"
+    exit 1
+fi
+
+line_count=$(wc -l "$file" | awk '{print $1}')
+file_word=$(wc -w "$file" | awk '{print $1}')
+file_character=$(wc -c "$file" | awk '{print $1}')
+
+echo "the file line is: " ${line_count} "\n, number of word present in the file \n" ${file_word} "\n, Number of characher are present in the file: \n" ${file_character}

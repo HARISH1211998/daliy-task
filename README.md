@@ -45,32 +45,23 @@ Counts how many .log files are in that directory
 Shows the total size of those .log files combined
 
 
-
+## Day 3 task 7th july
 ✅ Easy-Level Tasks
 🔹 Shell Script (Easy)
 Task:
 Write a script that accepts a filename and prints:
-
 Whether it exists
-
 Whether it’s a file or directory
-
 Its size in human-readable format
 
 🔹 Python (Easy)
 Task:
 Write a program to accept a string and print each word on a new line.
 For example: "Hello World from Python" →
-csharp
-Copy
-Edit
 Hello  
 World  
 from  
-Python
 
-
-🧠 Medium-Level Tasks
 🔸 Shell Script (Medium)
 Task:
 Write a script to find the top 3 largest files in a directory (including subdirectories).
@@ -82,3 +73,32 @@ Write a Python program that accepts a list of integers and returns all the dupli
 Example:
 Input:  [1, 2, 3, 4, 2, 5, 1, 6]
 Output: [1, 2]
+
+
+## Day 4 task 8th july
+Easy – Shell Script
+Task:
+Write a shell script that:
+Accepts a filename as input
+Prints how many lines, words, and characters are in the file
+📌 (Hint: Use wc command)
+
+✅ Easy – Python
+Task:
+Write a Python program that:
+Accepts a string
+Counts the number of vowels (a, e, i, o, u) in it
+
+🧠 Medium – Shell Script
+Task:
+Write a shell script that:
+Accepts a directory path
+Lists all files modified in the last 7 days
+📌 (Hint: Use find with -mtime)
+
+🧠 Medium – Python
+Task:
+Write a Python program to:
+Accept a string from the user
+Return the first non-repeating character
+Example: input "programming" → output 'p'
