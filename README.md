@@ -76,29 +76,4 @@ Output: [1, 2]
 
 
 ## Day 4 task 8th july
-Easy – Shell Script
-Task:
-Write a shell script that:
-Accepts a filename as input
-Prints how many lines, words, and characters are in the file
-📌 (Hint: Use wc command)
-
-✅ Easy – Python
-Task:
-Write a Python program that:
-Accepts a string
-Counts the number of vowels (a, e, i, o, u) in it
-
-🧠 Medium – Shell Script
-Task:
-Write a shell script that:
-Accepts a directory path
-Lists all files modified in the last 7 days
-📌 (Hint: Use find with -mtime)
-
-🧠 Medium – Python
-Task:
-Write a Python program to:
-Accept a string from the user
-Return the first non-repeating character
-Example: input "programming" → output 'p'
+Easy 
