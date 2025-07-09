@@ -102,3 +102,41 @@ Write a Python program to:
 Accept a string from the user
 Return the first non-repeating character
 Example: input "programming" → output 'p'
+
+## Day 5
+✅ Day 5 Task Plan
+✅ Easy – Shell Script
+Task:
+Write a shell script to:
+Accept a number from the user
+Check if the number is even or odd
+📌 Hint: Use modulo % operator in Bash.
+
+✅ Easy – Python
+Task:
+Write a Python program to:
+Accept a number from the user
+Print the multiplication table up to 10
+📌 Example:
+Input → 5
+Output → 5 x 1 = 5, ..., 5 x 10 = 50
+
+🧠 Medium – Shell Script
+Task:
+Write a shell script to:
+Monitor a given process by name (e.g., nginx, python)
+If the process is not running, print a message
+📌 Hint: Use pgrep or ps -ef | grep to check the process.
+
+🧠 Medium – Python
+Task:
+Write a Python program to:Accept a sentence
+Count how many times each word appears
+📌 Example:
+Input → "this is a test this is only a test"
+Output →
+this: 2  
+is: 2  
+a: 2  
+test: 2  
+only: 1
