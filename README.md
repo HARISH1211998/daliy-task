@@ -140,3 +140,40 @@ is: 2
 a: 2  
 test: 2  
 only: 1
+
+
+
+Day 6 Task Plan
+✅ Easy – Shell Script
+Task:
+Write a shell script to:
+Accept a filename from the user
+Print only the lines that are not empty
+📌 Hint: Use grep or awk
+(Bonus: ignore lines that have only spaces)
+
+✅ Easy – Python
+Task:
+Write a Python program to:
+Accept a number from the user
+Print whether it is a prime number or not
+📌 Example:
+Input: 7 → Output: "7 is a prime number"
+Input: 10 → Output: "10 is not a prime number"
+
+🧠 Medium – Shell Script
+Task:
+Write a shell script to:
+Accept a directory from the user
+Count how many files are older than 7 days
+Show their names and sizes
+📌 Hint: Use find, -mtime, -type f, -exec ls -lh
+
+🧠 Medium – Python
+Task:
+Write a Python program to:
+Accept a sentence from the user
+Find and print the longest word in the sentence
+Example:
+Input: "DevOps makes deployment easier"
+Output: "deployment" is the longest word
