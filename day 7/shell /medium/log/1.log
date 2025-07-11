@@ -1,0 +1,4 @@
+2025-07-11 22:20:50 - INFO - Cache cleared
+2025-07-11 22:20:50 - ERROR - Retrying request
+2025-07-11 22:20:50 - WARNING - Exception occurred in module X
+...

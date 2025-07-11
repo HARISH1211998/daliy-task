@@ -1,0 +1,6 @@
+2025-07-11T22:20:50.123456 kubelet[1234]: Started container nginx
+2025-07-11T22:20:50.123457 kubelet[1234]: Successfully assigned default/nginx to node01
+2025-07-11T22:20:50.123458 kubelet[1234]: Pulled image 'nginx:latest'
+2025-07-11T22:20:50.123459 kubelet[1234]: Created pod kube-proxy
+2025-07-11T22:20:50.123460 kubelet[1234]: Error syncing pod
+...

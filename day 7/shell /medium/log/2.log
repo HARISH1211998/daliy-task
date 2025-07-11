@@ -1,0 +1,4 @@
+Jul 11 22:20:50 localhost kernel: Failed to start service
+Jul 11 22:20:50 localhost systemd: Segfault at address 0x1234
+Jul 11 22:20:50 localhost cron: Permission denied
+...
