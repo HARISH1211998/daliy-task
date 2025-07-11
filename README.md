@@ -177,3 +177,38 @@ Find and print the longest word in the sentence
 Example:
 Input: "DevOps makes deployment easier"
 Output: "deployment" is the longest word
+
+
+## Day 7 
+🐍 Python – Easy
+✅ Task:
+Write a Python program to accept a string from the user and print the number of uppercase and lowercase letters in it.
+📌 Example:
+Input: Hello World
+Output:
+Uppercase letters: 2  
+Lowercase letters: 8
+
+🐚 Shell Script – Easy
+✅ Task:
+Write a shell script that:
+Accepts a filename as input
+Prints the number of lines that contain a specific word (ask the user for the word too)
+Hint: Use grep -c
+
+🐍 Python – Medium
+✅ Task:
+Write a Python program that:
+Accepts a list of integers from the user (comma-separated)
+Finds the second largest unique number
+📌 Example:
+Input: 10, 20, 20, 30, 10
+Output: 20
+
+🐚 Shell Script – Medium
+✅ Task:
+Write a shell script that:
+Accepts a directory path
+Lists the top 5 largest .log files, including subdirectories
+Print their name and size
+Hint: Use find, du, sort, head

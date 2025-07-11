@@ -1,0 +1,4 @@
+Task Shell Script – Easy
+✅ Task: Write a shell script that: Accepts a filename as input, 
+Prints the number of lines that contain a specific word 
+(ask the user for the word too)
