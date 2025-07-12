@@ -212,3 +212,27 @@ Accepts a directory path
 Lists the top 5 largest .log files, including subdirectories
 Print their name and size
 Hint: Use find, du, sort, head
+
+
+## Day 8
+🐍 Python – Easy
+Task: Accept a string from the user and print all the digits found in it.
+Example:
+Input → abc123xyz9
+Output → Digits: 1, 2, 3, 9
+
+🐚 Shell – Easy
+Task: Accept a file name and print the total number of blank lines in it.
+(Hint: grep, awk, or sed)
+
+🐍 Python – Medium
+Task: Accept a sentence, and return the word with the highest number of vowels.
+
+Example:
+Input → Automation makes life easier
+Output → Automation
+
+🐚 Shell – Medium
+Task: Monitor memory usage and alert if usage crosses 80%
+(Hint: Use free, awk, or vm_stat if on Mac)
+Print "Memory usage high: XX%" if over 80%.
