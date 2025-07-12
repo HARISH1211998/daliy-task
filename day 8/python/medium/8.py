@@ -1,5 +1,5 @@
-## Task
 ## Task: Accept a sentence, and return the word with the highest number of vowels.
+## Example: Input → Automation makes life easier, Output → Automation
 
 def main():
     sent=input("Enter the sentence input: ").lower()

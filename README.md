@@ -227,7 +227,6 @@ Task: Accept a file name and print the total number of blank lines in it.
 
 🐍 Python – Medium
 Task: Accept a sentence, and return the word with the highest number of vowels.
-
 Example:
 Input → Automation makes life easier
 Output → Automation
