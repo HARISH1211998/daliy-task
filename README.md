@@ -235,3 +235,32 @@ Output → Automation
 Task: Monitor memory usage and alert if usage crosses 80%
 (Hint: Use free, awk, or vm_stat if on Mac)
 Print "Memory usage high: XX%" if over 80%.
+
+
+
+## Day 9
+Python – Easy
+✅ Task: Accept a list of comma-separated strings and print only the strings with length > 5.
+Example:
+Input → apple,banana,dog,elephant
+Output → banana, elephant
+
+
+🐚 Shell – Easy
+✅ Task: Accept a file name and print only the lines that start with a capital letter.
+Hint: Use grep, ^[A-Z]
+
+🐍 Python – Medium
+✅ Task: Accept a sentence from the user and print:
+All words longer than the average word length
+
+Example:
+Input → "DevOps makes deployments easier and faster"
+Average word length → 6
+Output → deployments, easier
+
+🐚 Shell – Medium
+✅ Task: Accept a directory path. Recursively find:
+All .log files larger than 1MB
+Print their path and size
+Hint: Use find, -size +1M, -name "*.log"
