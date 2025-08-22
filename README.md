@@ -264,3 +264,196 @@ Output → deployments, easier
 All .log files larger than 1MB
 Print their path and size
 Hint: Use find, -size +1M, -name "*.log"
+
+
+### Day 10
+🐍 Python – Easy
+Task: Accept a string and count how many spaces are in it.
+🐚 Shell – Easy
+Task: Accept a filename and print the last 10 lines. (Hint: use tail)
+🐍 Python – Medium
+Task: Accept a list of numbers and print the median value.
+🐚 Shell – Medium
+Task: Accept a directory path and count the total number of subdirectories inside it.
+
+### Day 11
+🐍 Python – Easy
+Task: Accept a list of numbers and print the maximum and minimum numbers.
+🐚 Shell – Easy
+Task: Display the current disk usage in human-readable format. (Hint: df -h)
+🐍 Python – Medium
+Task: Accept a string and check if it’s a palindrome.
+
+🐚 Shell – Medium
+Task: Accept a directory path and archive it into a .tar.gz file.
+
+### Day 12
+🐍 Python – Easy
+Task: Accept a number and print its factorial.
+🐚 Shell – Easy
+Task: Display the top 5 CPU-consuming processes. (Hint: ps aux --sort=-%cpu | head -n 6)
+🐍 Python – Medium
+Task: Accept a list of numbers and remove all even numbers.
+🐚 Shell – Medium
+Task: Accept a filename and replace all spaces with underscores. (Hint: tr or sed)
+
+### Day 13
+🐍 Python – Easy
+Task: Accept a string and count how many consonants it has.
+🐚 Shell – Easy
+Task: Accept a filename and print the first 5 lines. (Hint: head -5)
+🐍 Python – Medium
+Task: Accept a list of words and sort them alphabetically.
+🐚 Shell – Medium
+Task: Accept a directory path and find all symbolic links inside it.
+
+### Day 14
+🐍 Python – Easy
+Task: Accept a list of numbers and print only positive numbers.
+🐚 Shell – Easy
+Task: Print the system uptime. (Hint: uptime)
+🐍 Python – Medium
+Task: Accept a sentence and count the frequency of each character.
+🐚 Shell – Medium
+Task: Accept a filename and count how many unique words it contains.
+
+### Day 15
+🐍 Python – Easy
+Task: Accept two numbers and print their greatest common divisor (GCD).
+🐚 Shell – Easy
+Task: Print all currently running background jobs. (Hint: jobs)
+🐍 Python – Medium
+Task: Accept a sentence and reverse the order of words.
+🐚 Shell – Medium
+Task: Accept a filename and sort its contents alphabetically.
+
+### Day 16
+🐍 Python – Easy
+Task: Accept a number and print its binary representation.
+🐚 Shell – Easy
+Task: Display the default gateway of your system. (Hint: ip route show or netstat -rn)
+🐍 Python – Medium
+Task: Implement a simple calculator (add, subtract, multiply, divide).
+🐚 Shell – Medium
+Task: Accept a directory path and calculate total size of .txt files.
+
+### Day 17
+🐍 Python – Easy
+Task: Accept a list of numbers and print only odd numbers.
+🐚 Shell – Easy
+Task: Accept a process ID (PID) and print its status. (Hint: ps -p PID)
+🐍 Python – Medium
+Task: Accept a sentence and print words in descending order of length.
+🐚 Shell – Medium
+Task: Monitor CPU usage and alert if usage crosses 75%.
+
+### Day 18
+🐍 Python – Easy
+Task: Accept a number and check if it is a perfect square.
+🐚 Shell – Easy
+Task: Print all environment variables. (Hint: printenv)
+🐍 Python – Medium
+Task: Accept a string and print all substrings of length 3.
+🐚 Shell – Medium
+Task: Accept a directory and find the most recently modified file.
+
+### Day 19
+🐍 Python – Easy
+Task: Accept a list of numbers and print their average.
+🐚 Shell – Easy
+Task: Accept a filename and print how many numeric values it contains.
+🐍 Python – Medium
+Task: Accept a list of numbers and print the third largest unique number.
+🐚 Shell – Medium
+Task: Accept a directory and count hidden files.
+
+### Day 20
+🐍 Python – Easy
+Task: Accept a sentence and print it in title case (first letter capital).
+🐚 Shell – Easy
+Task: Print the current logged-in users. (Hint: who)
+🐍 Python – Medium
+Task: Implement a program to check if two strings are anagrams.
+🐚 Shell – Medium
+Task: Monitor a file and print new lines as they are added. (Hint: tail -f)
+
+### Day 21
+🐍 Python – Easy
+Task: Accept a string and remove all vowels.
+🐚 Shell – Easy
+Task: Display current system load average. (Hint: uptime or cat /proc/loadavg)
+🐍 Python – Medium
+Task: Accept a list of numbers and find the mode (most frequent number).
+🐚 Shell – Medium
+Task: Accept a directory and compress all .log files into one archive.
+
+### Day 22
+🐍 Python – Easy
+Task: Accept a number and print its reverse.
+🐚 Shell – Easy
+Task: Accept a filename and remove all blank lines.
+🐍 Python – Medium
+Task: Accept a string and find the longest palindrome substring.
+🐚 Shell – Medium
+Task: Find and delete files older than 30 days in a directory.
+
+### Day 23
+🐍 Python – Easy
+Task: Accept a sentence and count words that start with a vowel.
+🐚 Shell – Easy
+Task: Display all listening network ports. (Hint: netstat -tuln or ss -tuln)
+🐍 Python – Medium
+Task: Accept a list of numbers and implement bubble sort.
+🐚 Shell – Medium
+Task: Monitor disk space and alert if usage crosses 90%.
+
+### Day 24
+🐍 Python – Easy
+Task: Accept a string and print ASCII values of each character.
+🐚 Shell – Easy
+Task: Print current system’s kernel version. (Hint: uname -r)
+🐍 Python – Medium
+Task: Accept a list of numbers and find pairs that sum to a given target.
+🐚 Shell – Medium
+Task: Accept a directory and list the 10 most recently modified files.
+
+### Day 25
+🐍 Python – Easy
+Task: Accept a string and print it in reverse without using slicing.
+🐚 Shell – Easy
+Task: Print the current user’s home directory. (Hint: echo $HOME)
+🐍 Python – Medium
+Task: Accept a string and check if it contains only digits.
+🐚 Shell – Medium
+Task: Accept a directory and count how many executable files are inside.
+
+### Day 26 (Mini Project)
+🐍 Python
+Task: Build a simple To-Do List CLI app (add, remove, view tasks).
+🐚 Shell
+Task: Write a script to take backups of a directory into backups/ folder with timestamp.
+
+### Day 27 (Mini Project)
+🐍 Python
+Task: Create a simple program that fetches weather data using an API.
+🐚 Shell
+Task: Write a script to check website uptime (ping test) and log results.
+
+### Day 28 (Mini Project)
+🐍 Python
+Task: Build a program that generates random secure passwords.
+🐚 Shell
+Task: Write a script that checks SSL certificate expiry of a website.
+
+### Day 29 (Mini Project)
+🐍 Python
+Task: Create a simple file organizer – moves files into folders by extension (e.g., .txt → Texts, .jpg → Images).
+🐚 Shell
+Task: Create a script that monitors /var/log/ and alerts if new error messages appear.
+
+
+### Day 30 (Final Project)
+🐍 Python
+Task: Build a simple student marks manager – accepts names + marks, calculates average, highest, lowest.
+🐚 Shell
+Task: Build a script that monitors system (CPU, Memory, Disk) and writes logs every 5 mins.
