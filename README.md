@@ -283,7 +283,6 @@ Task: Accept a list of numbers and print the maximum and minimum numbers.
 Task: Display the current disk usage in human-readable format. (Hint: df -h)
 🐍 Python – Medium
 Task: Accept a string and check if it’s a palindrome.
-
 🐚 Shell – Medium
 Task: Accept a directory path and archive it into a .tar.gz file.
 
