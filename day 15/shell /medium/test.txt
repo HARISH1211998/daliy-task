@@ -1,0 +1,23 @@
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+ubuntu@ip-172-31-47-90:~$ jobs -l
+ubuntu@ip-172-31-47-90:~$ ps -u $USER
+    PID TTY          TIME CMD
+2097656 ?        00:00:00 runsvc.sh
+2097660 ?        00:00:00 node
+2118413 ?        00:03:58 Runner.Listener
+2224562 ?        00:00:00 systemd
+2224563 ?        00:00:00 (sd-pam)
+2224646 ?        00:00:00 sshd
+2224649 pts/0    00:00:00 bash
+2224662 pts/0    00:00:00 ps
+ubuntu@ip-172-31-47-90:~$ sleep 100 &
+sleep 200 &
+jobs
+[1] 2224664
+[2] 2224665
+[1]-  Running                 sleep 100 &
+[2]+  Running                 sleep 200 &
